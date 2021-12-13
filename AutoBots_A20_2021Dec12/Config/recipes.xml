@@ -1,6 +1,6 @@
 <configs>
 	<append xpath="/recipes">
-	<!-- AutomatedMining-->
+	<!-- AutomatedMining--> <!-- If you prefer the old system, change recipe dependencies back to auger meleeToolPickT3Auger -->
 		<recipe name="resourceClayLump" count="1000" craft_area="AutomatedMining" craft_time="3600" tags="automatedmining" craft_tool="toolBellows">
 			<ingredient name="ammoGasCan" count="1000"/>
 		</recipe>
@@ -32,6 +32,7 @@
 		</recipe>		
 		
 	<!-- AutomatedAmmunition - Recipe formula = Half of individual Gunpowder (+ Primary Resource for selective projectiles for balance) requirement on Workbench + A third of Player Vending Machine cost -->
+	<!-- If you prefer the old system, change recipe dependencies back to ratchet meleeToolSalvageT2Ratchet -->
 		<recipe name="ammo9mmBulletBall" count="500" craft_area="AutomatedAmmunition" craft_time="3600" tags="automatedammunition" craft_tool="toolBellows">
 			<ingredient name="resourceGunPowder" count="250"/> <!-- 1 Gunpowder per individual round on Workbench -->
 			<ingredient name="casinoCoin" count="1500"/> <!-- 9 Dukes per round in Player Vending Machine at default -->

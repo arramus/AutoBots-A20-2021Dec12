@@ -5,7 +5,7 @@
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
 			<window name="windowToolsForge" />			
-			<!--window name="windowToolsAutomatedMining"/-->			
+			<!--window name="windowToolsAutomatedMining"/--> <!-- If you prefer the old system, uncomment and remove windowToolsForge. Remember to change recipe dependencies back to auger. -->			
 			<window name="windowOutput"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
@@ -14,7 +14,7 @@
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
 			<window name="windowToolsForge" />			
-			<!--window name="windowToolsAutomatedAmmunition"/-->			
+			<!--window name="windowToolsAutomatedAmmunition"/--> <!-- If you prefer the old system, uncomment and remove windowToolsForge. Remember to change recipe dependencies back to ratchet. -->			
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>	
